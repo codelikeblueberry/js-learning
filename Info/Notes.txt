@@ -1,0 +1,20 @@
+What is javascript?
+Javascipt is a single threaded syncronus language which is
+converted into mahine code line by line by node interpreter.
+
+What happens when you run a javascript program?
+A execution context is created which has two coloums
+- MEMORY -CODE
+
+What is undefined?
+It is a placeholder for any value which is not yet declared in variable.
+
+This is the js function please explain me how this is executed.
+First of all the execution context is created,
+Secondly in memory the vaiables will be created.
+secondly it gives the values to varibales.
+when Function is called, the Execution context is again created.
+
+Q. when does the memory allocation happens? Is it during code execution or before code execution.
+
+Q. Are the == & > or < work same in JS?

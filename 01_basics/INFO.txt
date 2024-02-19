@@ -1,0 +1,46 @@
+Q. how to master js
+A.Master JS objects+ Master Browser/web events
+
+Q. in what basis the data in catergorised?
+A. data is catergorised on the basis of how we store data
+in memory and how we access data from the memory.
+
+
+On that basis we have two types of data types:
+
+PRIMITIVE //7
+string : typeof=>string
+number : typeof=> number
+boolean :typeof=> boolean
+null : typeof=> object
+undefined : varibale declared , memory address declared : typeof=> undefined
+symbol : typeof=> symbol
+BigInt : Big scientic data 10^100 : typeof=> bigint
+
+const score = 100
+const scorevalue = 100.3
+const isLoggedIn = false
+const outsideTemp = null
+let email; or let email undefined;
+const id = Symbol('123') returns unique symbols
+const anotherId = Symbol('123')
+console.log(id==anotherId);  // false
+
+
+
+REFERENCE DATAYPES 
+array : typeof=> object
+objects : What ever comes in the curley braces are the objects. typeof=> object
+functions : typeof => function
+
+const heroes = ['ironman','batman','spiderman','wonderwoman']
+let biodata = {
+    'name':'blueberry',
+    'age':23,
+    'languages known' : ['JS','Python','G0',]  ,
+    'wife':null
+}
+
+let myfunction = fun (){
+    console.log("hello js");
+}
