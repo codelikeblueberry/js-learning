@@ -1,0 +1,33 @@
+# while learning objects:
+
+const jsuser = {
+    name : "swatantra"
+}
+
+jsuser.fullname = `${this.name} yadav` 
+
+console.log(jsuser)
+OUTPUT
+*/{
+  name: 'swatantra',
+  work: [Function (anonymous)],
+  fullname: 'undefined yadav'
+}/*
+Doubt: why it is giving me this undefined?
+
+
+Q.  why it is giving me false ?
+const jsuser = {
+    name: "swatantra"
+}
+
+console.log(Object.hasOwnProperty(jsuser, 'name'));
+
+
+A.
+
+The correct way to check if an object has a property is to use the "hasOwnProperty" method directly on the object, not on the Object class. 
+
+
+The Object.hasOwnProperty() method is used on an instance of an object, 
+not on the Object class itself.
